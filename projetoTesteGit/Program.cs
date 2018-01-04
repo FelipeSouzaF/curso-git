@@ -9,6 +9,7 @@ namespace projetoTesteGit {
             int i = 0;
             while(i < 10) {
                 Console.WriteLine("Mudei o FOR por WHILE");
+                i++;
             }
 
             Console.ReadLine();
