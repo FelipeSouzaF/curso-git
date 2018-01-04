@@ -6,9 +6,9 @@ namespace projetoTesteGit {
             Console.WriteLine("Olá mundo!");
             Console.WriteLine("Bom Dia!");
             Console.WriteLine("Seja bem-vindo!");
-
-            for(int i = 0; i < 10; i++) {
-                Console.WriteLine("Olá!");
+            int i = 0;
+            while(i < 10) {
+                Console.WriteLine("Mudei o FOR por WHILE");
             }
 
             Console.ReadLine();
